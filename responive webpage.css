@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Figtree", sans-serif;;
+}
+.nav-item{
+    padding-right: 20px;
+  
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    left: 0;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,5);
+    background-color:rgb(239, 185, 136)
+    
+}
+#navbarSupportedContent a{
+    border-bottom: 2px solid transparent;
+    color:black;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid black;
+}
+a{
+    color:brown;
+    font-size: 17px;
+    
+}
+
+
+.img1{
+    border-radius: 50px;
+    
+}
+.fa-solid{
+    padding-right: 10px;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home{
+    background:linear-gradient(rgb(0,0,0,.1),rgba(0,0,0,.4)), url(cofeavif2.avif);
+    background-size: cover;
+    background-position: center;
+    image-rendering: auto;
+    flex-direction: column;
+}
+#home h1{
+    font-size: 100px;
+    color: white;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px #CCC, 
+                 0px 2px 0px #CCC,
+                 0px 3px 0px #CCC,
+                 0px 4px 0px #CCC,
+                 0px 5px 0px #CCC,
+                 0px 6px 0px #CCC,
+                 0px 7px 0px #CCC,
+                 0px 8px 0px #CCC,
+                 0px 2px 0px #CCC,
+                 0px 2px 0px #CCC,
+                 0px 2px 0px #CCC,
+                 0px 2px 0px #CCC,
+                 0px 2px 0px #CCC,
+                 0px 2px 0px #CCC,
+                 0px 2px 0px #CCC;
+
+}
+#home p{
+    font-size: 25px;
+    color: #fff;
+}
+#home .input-group{
+    width: 40%;
+    height: 45px;
+}
+.signin{
+    background-color: rgb(239, 185, 136)!important;
+    color: black !important;
+    box-shadow: 2px 4px 5px rgba(0,0,0,.3);
+}
+#about{
+    background:linear-gradient(to right,#D7CCC8,#6F4E37 100%);
+}
+#about h1{
+    font-weight: 800;
+    font-size: 50px;
+    color:black;
+    letter-spacing: 2px;
+}
+#about h3{
+    color:black;
+}
+#about p{
+    color: white;
+    font-size:20px;
+}
+#products{
+        background-color:#D7CCC8;
+        
+}
+.card-img-top{
+    width: 300px;
+    height: 300px;
+}
+#products h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    
+}
+.card{
+    width: 300px;
+    height: 300px;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3),
+                inset 4px 4px 10px white;
+    border-radius: 20px !important;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 60px;
+    transition: .2s;
+}
+.card:hover{
+    box-shadow:inset 5px 5px 10px rgba(0,0,0,.3),
+               inset -4px -4px 10px white;
+    transition: .2s;
+}
+#contact img {
+    height: 100%;
+}
+.box{
+    width:80% !important;
+
+    margin-top: 10px;
+}
+.frm{
+    display: flex;
+    flex-direction: column;
+}
+#contact input{
+    margin:10px 0px;
+}
+#contact textarea{
+    margin:10px 0px;
+}
+#contact{
+    background: linear-gradient(to right,#D7CCC8,#3E2723);
+}
+#contact h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.img2{
+    height: 500px;;
+    width:500px;
+}
+#location{
+    background: linear-gradient(to right,#D7CCC8,#3E2723);
+    color: white;
+    
+}
+.btn2{
+    font-size: 25px;
+}
+.loc p{
+    font-size: 20px;
+}
+#location h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
